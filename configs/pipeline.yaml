@@ -1,0 +1,21 @@
+# 第1阶段：60/45/62/66.py 的固定参数。
+preprocess:
+  hu_threshold: -700
+  bed_z_ratio_threshold: 0.6
+  y_gaussian_sigma: 2.0
+  y_threshold_ratio: 0.15
+  target_spacing_mm: [1.0, 1.0, 1.0]
+segment:
+  folds: [0, 1, 2, 3, 4]
+  checkpoint: model_best
+  tta: true
+  step_size: 0.5
+  mixed_precision: true
+  all_in_gpu: false
+nodes:
+  min_voxels: 10
+classify:
+  expected_selected_features: 15
+grade:
+  boundary_12: [54.40, 71.79, 0.97]
+  boundary_23: [69.65, 58.68, -33.01]
