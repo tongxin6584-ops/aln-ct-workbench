@@ -1,0 +1,24 @@
+{
+  "description": "Copied model assets; SHA256 verified on local project before cloud upload",
+  "segmentation": {
+    "architecture": "unetr_pp_trainer_synapse",
+    "folds": [0, 1, 2, 3, 4],
+    "checkpoint": "model_best",
+    "plans_spacing_mm": [1.0, 1.0, 1.0],
+    "plans_patch_size": [64, 128, 128]
+  },
+  "files": {
+    "models/Best_Model_LightGBM.pkl": "1a72adbf4aaaefd80a675d458e00fc27bff21ae67570e5297675131d362f2cf9",
+    "models/seg_unetrpp/plans.pkl": "bc2ceeaf7aba51384cce559f972cfe56e190336670d5305004f8faf97ea08be4",
+    "models/seg_unetrpp/fold_0/model_best.model": "900b6fc013a3f7128096947045ca65973ed481123171bf07cfed08c4415bb222",
+    "models/seg_unetrpp/fold_0/model_best.model.pkl": "89acf4ebd151c9b8496e727b51ffd701124379285134e10b12372d2815b9ac70",
+    "models/seg_unetrpp/fold_1/model_best.model": "a1e6f33915418e0fa214508eb35b1883a091ca3058a6e898fd9c1834bf79d521",
+    "models/seg_unetrpp/fold_1/model_best.model.pkl": "5435dce7010ce13598830dd5b247b481ee9a37bbf3631c579f8a4566d6c5d763",
+    "models/seg_unetrpp/fold_2/model_best.model": "3a6bd43b121ac5acfa30a51ac8dc35f33c8fd192606c62c99a7b9302e11390a7",
+    "models/seg_unetrpp/fold_2/model_best.model.pkl": "7bf58590c396230a8a223639b748d38d7ce8f5b4fe22d0ade32253d2c772a037",
+    "models/seg_unetrpp/fold_3/model_best.model": "cfafb93db444cfc144c144cc38c59b11bd5658860cf395a1fe7ce2c6cae90381",
+    "models/seg_unetrpp/fold_3/model_best.model.pkl": "45784f23b18eca23f2293e490e6a8b584e17d8639c3a246976e4a13231c8efc5",
+    "models/seg_unetrpp/fold_4/model_best.model": "1e1563b64851ae092cd3a7c0bb455028ae296e0ce7a9e04b61abdb368ef99eff",
+    "models/seg_unetrpp/fold_4/model_best.model.pkl": "73fd4e0e9833ed2351d9a1700864122bbbe43d3c20f011b45c4f8918b35b9153"
+  }
+}

@@ -1,0 +1,13 @@
+# 与师姐79.py保持一致；不要对单病例重新做特征筛选。
+binWidth: 25
+resampledPixelSpacing: null
+label: 1
+image_types:
+  Original: {}
+  Wavelet: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+  Square: {}
+  SquareRoot: {}
+  Logarithm: {}
+  Exponential: {}

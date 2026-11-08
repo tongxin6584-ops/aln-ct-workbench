@@ -1,0 +1,13 @@
+# aln-app：先按docs/最终环境配置说明.md安装PyTorch 2.5.1+cu118，再安装下列依赖。
+numpy>=2,<3
+scipy
+nibabel
+SimpleITK
+PyYAML
+TotalSegmentator==2.18.0
+lightgbm
+scikit-learn==1.6.1
+joblib
+pandas
+matplotlib
+streamlit

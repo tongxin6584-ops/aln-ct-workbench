@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+workspace/
+results/
+test_data/*.nii
+test_data/*.nii.gz
+models/*.pkl
+models/seg_unetrpp/
+models/totalsegmentator/
+/ALN_Cloud_Backup_20261106/
+*.lock.yml
+*.lock.txt

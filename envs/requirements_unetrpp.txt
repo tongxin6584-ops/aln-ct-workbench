@@ -1,0 +1,21 @@
+# Python 3.8 + PyTorch 1.11/CUDA 11.3 first; see docs/最终环境配置说明.md.
+numpy==1.20.1
+batchgenerators==0.21
+matplotlib==3.5.1
+Pillow==9.5.0  # Compatible with numpy==1.20.1; newer Pillow imports numpy.typing.NDArray.
+scikit-learn==1.0.2
+tqdm==4.32.1
+fvcore==0.1.5.post20220414
+scikit-image==0.18.1
+SimpleITK==2.2.0
+tifffile==2021.3.31
+medpy==0.4.0
+pandas==1.2.3
+scipy==1.6.2
+nibabel==4.0.1
+timm==0.4.12
+monai==0.7.0
+einops==0.6.0
+tensorboardX==2.2
+pyradiomics==3.1.0
+PyYAML
