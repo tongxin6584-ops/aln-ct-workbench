@@ -2,6 +2,10 @@
 
 将医学影像课题中的预处理、腋窝淋巴结分割、骨骼定位、单体拆分、影像组学分类和解剖分级串为一个可追踪的 Web 工作流。输入是静脉期胸部 CT 的三维 NIfTI、脱敏病例编号和侧别；输出逐颗淋巴结的 JSON、Markdown、CSV 报告、原始 CT 网格上的 NIfTI 标签图及预览图。
 
+## 演示视频
+
+[观看产品演示（飞书妙记）](https://dcnoxoqqqp99.feishu.cn/minutes/obcn43hg83kpz5kojbz21dj3)
+
 ## 进度与范围
 
 - Streamlit 网页支持上传病例、后台运行、查看进度和历史结果。
