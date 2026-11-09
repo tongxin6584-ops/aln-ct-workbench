@@ -4,7 +4,7 @@
 
 ## 演示视频
 
-[观看产品演示（飞书妙记）](https://dcnoxoqqqp99.feishu.cn/minutes/obcn43hg83kpz5kojbz21dj3)
+[观看产品演示（飞书妙记）](https://my.feishu.cn/minutes/obcn43hg83kpz5kojbz21dj3?from=from_copylink)
 
 ## 进度与范围
 
