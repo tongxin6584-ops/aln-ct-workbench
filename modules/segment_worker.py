@@ -1,4 +1,4 @@
-"""只在aln-unetrpp环境运行；直接调用师姐保留的推理函数。"""
+"""只在aln-unetrpp环境运行；调用UNETR++五折推理函数。"""
 
 import argparse
 import shutil
