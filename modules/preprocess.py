@@ -1,4 +1,4 @@
-"""封装师姐的60/45/62/66.py，运行到UNETR++输入ROI为止。"""
+"""执行CT预处理，生成UNETR++输入ROI。"""
 
 import argparse
 import json
