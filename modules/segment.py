@@ -1,4 +1,4 @@
-"""在独立的Python 3.8环境中执行原UNETR++五折推理。"""
+"""在独立的Python 3.8环境中执行UNETR++五折推理。"""
 
 import logging
 import os
