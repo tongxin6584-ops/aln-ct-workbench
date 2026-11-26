@@ -38,6 +38,6 @@ python main.py --input /path/to/venous_ct.nii.gz --patient-id demo_case --side l
 streamlit run app.py --server.address 127.0.0.1 --server.port 8501
 ```
 
-## 来源与贡献
+## 项目开发与依赖
 
-研究算法和原始脚本来自课题组既有工作；本项目独立完成系统化梳理、接口适配、流程编排、网页入口、结果留存和工程验收。UNETR++ 相关代码保留在 `third_party/`，来源与许可证见该目录文件。模型输出用于科研分析演示，不代表已完成整套系统的临床验证。
+本工作台由作者独立完成流程设计、接口适配、任务编排、网页入口、结果留存和工程验收。系统使用开源 UNETR++ 代码，来源与许可证见 `third_party/` 目录。模型输出用于科研分析演示，不代表已完成整套系统的临床验证。
