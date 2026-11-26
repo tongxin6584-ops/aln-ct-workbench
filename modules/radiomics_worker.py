@@ -1,4 +1,4 @@
-"""Python 3.8环境中的79.py特征提取工人；不加载LightGBM模型。"""
+"""Python 3.8环境中的影像组学特征提取任务；不加载LightGBM模型。"""
 
 import argparse
 import json
