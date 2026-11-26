@@ -98,7 +98,7 @@ def classify_nodes(nodes, native_instances, native_ct_path, model_path,
             raise ValueError(f"{node.node_id}的特征顺序与模型包不一致")
         node.extracted_feature_count = int(item["feature_count"])
         if node.extracted_feature_count != 1502:
-            LOG.warning("%s提取到%d个特征，师姐记录为1502；15维特征仍需核查",
+            LOG.warning("%s提取到%d个特征，预期1502；15维特征仍需核查",
                         node.node_id, node.extracted_feature_count)
         raw = pd.DataFrame([[values[name] for name in features]], columns=features).astype(float)
         if not np.isfinite(raw.to_numpy()).all():
