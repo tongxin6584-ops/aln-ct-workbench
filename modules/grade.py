@@ -1,4 +1,4 @@
-"""复用105.py的三维参考轴定义，代入固定二次分界线。"""
+"""根据骨骼三维参考轴和固定二次分界线计算解剖等级。"""
 
 import numpy as np
 
@@ -17,7 +17,7 @@ def _extreme_world(mask_img, axis, choose_max):
 def grade_nodes(nodes, clav_path, rib_path):
     clav, rib = load_nii(clav_path), load_nii(rib_path)
     assert_same_grid(clav, rib)
-    # 师姐105.py：左锁骨内侧X最大、左第5肋外侧X最小。
+    # 参考轴端点：左锁骨内侧X最大、左第5肋外侧X最小。
     p_end = _extreme_world(clav, 0, True)
     p_start = _extreme_world(rib, 0, False)
     axis = p_end - p_start
